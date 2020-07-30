@@ -1,5 +1,8 @@
 # 优惠券的长度是10个字符，由大字字母和数字随机组成
 import random, string
+
+
+
 count = int(input("需要多少个优惠券："))
 if count < 1:
     print("输入错误！！！")
@@ -19,4 +22,5 @@ with open('show_her_python\store优惠券\优惠券', 'a', encoding='utf8') as c
         c.write(str_coupon)
 
 print("优惠券生产并保存成功")
+
 
