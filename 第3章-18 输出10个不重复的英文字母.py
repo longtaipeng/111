@@ -18,4 +18,4 @@ for i in a:
 if c == 10:
     print(b)
 else:
-    print('not found')
+    print('not found!')
